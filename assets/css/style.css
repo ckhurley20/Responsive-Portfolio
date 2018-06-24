@@ -236,7 +236,7 @@ body {
   nav {
     width: 100%;
     text-align: center;
-    margin-bottom: 10px;
+    
   }
   #main-container {
     margin-top: 20px;
@@ -249,15 +249,14 @@ body {
   } 
   #logo {
     width: 100%;
+  
   }
   nav {
     width: 100%;
     text-align: center;
-    margin-bottom: 10px;
+    
   }
-  #main-container {
-    margin-top: 20px;
-  }
+  
 }
 
 @media screen and (max-width: 640px) {
@@ -266,32 +265,18 @@ body {
   }
   #logo {
     width: 100%;
+    top: 0;
+    overflow: auto;
   }
   nav {
     width: 100%;
     text-align: center;
-    margin-bottom: 10px;
+    position: relative;
+    display: block;
+    overflow: auto;
+    
   }
-  #main-container {
-    margin-top: 20px;
-  }
+  
+ 
 }
 
-
-
-@media screen and (max-width: 640px) {
-  .container {
-    width: 100%;
-  }
-  #logo {
-    width: 100%;
-  }
-  nav {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  #main-container {
-    margin-top: 20px;
-  }
-}
